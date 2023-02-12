@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+h3{
+    text-align: justify;
+    text-indent: 45px;
+    margin: 20px;
+    padding: 20px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 45px;
+    margin: 20px;
+    padding: 20px;
+}
+
+img {
+    display: block;
+    margin: 80px auto;
+    padding: 25px;
+}
