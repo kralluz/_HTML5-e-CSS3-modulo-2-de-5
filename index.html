@@ -8,7 +8,10 @@
     <title>Aula 01 - Psicologia das Cores</title>
 </head>
 <body>
-    <h3>Psicologia das Cores</h3>
+<header>
+    <h2>Aula 01 - Psicologia das Cores</h2>
+</header>
+    <h3>Como Funciona a psicologia das cores</h3>
     <p>Jamais subestime o poder das cores, elas podem influenciar na
         quantidade de tempo que seu visitante passa visitando o seu site
         e pode até mesmo ser um poderoso critério de decisão para uma
@@ -162,8 +165,16 @@
     </ol>
     <p>Para usar esse recurso, adicione qualquer cor tex tual à sua propriedade e passe o mouse sobre o nome da cor (veja a imagem a seguir) e uma janela especial aparecerá. Na imagem ao lado, ao passar o mouse sobre a palavra red, a janela de seleção de cores vai aparecer, permitindo escolher a cor, tom e transparência. O sistema do VSCode vai sugerir a melhor função a ser utilizada, mas você pode mudá-la clicando sobre o nome da função, também indicado na imagem. Faça testes, experimente, mude cores, use sua criatividade. A prática leva ao aprendizado sólido e duradouro!</p>
     <h3>Como representar uma cor?</h3>
+    <p>RGB é a sigla para Red Green Blue, que é uma representação de cores por meio de uma mistura de três cores primárias: vermelho (Red), verde (Green) e azul (Blue). A ideia por trás disso é que, combinando diferentes quantidades dessas três cores, é possível criar todas as cores visíveis no espectro de luz.
+    Em CSS3, existem três formas principais de representar cores: Valores de RGB: permite definir a cor com base nas quantidades de vermelho, verde e azul. Este é o formato mais comum para definir cores em CSS. Valores de HEX: é uma representação hexadecimal da cor, composta por seis dígitos. Nomes pré-definidos: são nomes de cores pré-definidos pelo W3C, como por exemplo "black", "white", "red", "green" etc.</p>
     <p>Você já deve ter ouvido falar que as cores em uma tela são compostas da junção de três cores primárias: vermelho (red), verde (green) e azul (blue). Analisando a imagem ao lado, vemos que a junção de algumas cores primárias nos leva a a outras cores como o magenta, amarelo e ciano. Se usarmos todas as cores primárias no máximo, chegamos ao branco. Com todas as três no mínimo, obtemos o preto.</p>
         <p>Cada cor primária pode ter um valor entre 0 e 255, totalizando 256 possibilidades para cada elemento. Vejamos alguns exemplos de cores e seus respectivos códigos. Vamos tomar como exemplo a cor Teal na tabela da página a seguir. Seu código rgb(0, 171, 169) indica que existe quantidade 0 de vermelho nessa cor, 171 de verde e 169 de azul. No código de cores hexadecimal (iniciado sempre com #) indica que 00 é a quantidade de vermelho, AB é a quantidade de verde e A9 é a quantidade de azul. </p>
         <p>Esta mesma cor indicada acima, pode ser representada em CSS com um outro formato baseado na maneira como o olho humano enxerga as cores: o padrão HSL. A função hsl(179, 100%, 34%) indica que temos 179 de hue (matiz), 100% de saturation (saturação) e 34% de lightness (luminância). Para obter versões de cores com transparência, basta arrastar a  barra de transparência indicada à direita e perceber que mais um valor (alpha) será adicionado ao código.</p>
+        <img src="imagens/tabela rgb.png" alt="">
+        <h3>Usando Gradientes em CSS</h3>
+        <p>Pode parecer esquisito no início, mas um gradiente é considerado pelo navegador como se fosse uma imagem, por isso usamos a propriedade background-image na declaração CSS. A função linear-gradient é auto-explicativa e gera um gradiente linear angular. O primeiro parâmetro da função, indica o ângulo de inclinação de 90 graus (90deg) e as seguintes indicam as cores do degradê a ser criado. Você pode indicar quantas cores quiser e o navegador vai saber se virar pra gerar seu degradê personalizado. Experimente na sua casa outros valores de ângulo também, incluindo negativos (45deg, -90deg, 25deg,…) e note as diferenças.</p>
+<footer>
+        &copy; 2023 - all rights reserved
+</footer>
 </body>
 </html>
