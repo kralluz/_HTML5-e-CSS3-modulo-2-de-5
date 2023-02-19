@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {box-sizing: border-box;}
+
+    body { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .header {
+    overflow: hidden;
+    background-color: #151414;
+    padding: 20px 10px;
+    list-style: none;
+    color: white;
+    }
+
+    .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+    }
+
+    .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    }
+
+    .header a:hover {
+    background-color: #151414;
+    color: black;
+    }
+
+    .header a.active {
+    background-color: dodgerblue;
+    color: white;
+    }
+
+    .header-right {
+    float: right;
+    }
+
+    @media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    
+    .header-right {
+        float: none;
+    }
+    }
+        main {
+            background-color: #3F5E5A;
+        }
+
+        .maintext {
+            text-indent: 20px;  
+        }
+
+        footer {
+            background-color: #615422;
+        }
+
+    </style>
+</head>
+<body>
+        <div class="header">
+            <a href="#" ><img width="100" src="https://cdn.discordapp.com/attachments/1071193182815133808/1076934197819736124/dark_hexagon_Logo.png" alt="dragon_hexagon_logo"> Code Warriors .dev</a>
+            <div class="header-right">
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a class="active" href="#home">Sobre Nós</a>
+            </div>
+        </div>
+        
+        <div style="padding-left:20px">
+            <h1>Responsive Header</h1>
+            <p>Resize the browser window to see the effect.</p>
+            <p>Some content..</p>
+        </div>
+
+    <main>
+        <h1>Sobre Nós</h1>
+        <p class="maintext">Bem-vindo ao Code Warriors! Somos um site de curiosidades e notícias relacionadas à tecnologia e programação. Nosso objetivo é inspirar e informar a todos os entusiastas e profissionais da área, oferecendo conteúdo de qualidade e relevante sobre as últimas tendências e avanços na indústria. </p>
+        <p class="maintext">Nosso time é formado por especialistas em tecnologia e programação, apaixonados por inovação e sempre em busca de novos conhecimentos. Acreditamos que a tecnologia é uma ferramenta poderosa para melhorar o mundo e que é nosso dever compartilhar nosso conhecimento com a comunidade.</p>
+        <p class="maintext">Além de curiosidades e notícias, também oferecemos tutoriais, dicas e truques para quem quer aprender mais sobre programação. Nosso compromisso é fornecer conteúdo de alta qualidade e útil para ajudar todos os nossos leitores a alcançar seus objetivos e se destacar na área.</p>
+        <p class="maintext">Se você é um entusiasta de tecnologia e programação, ou apenas quer ficar por dentro das últimas tendências, você está no lugar certo. Agradecemos por nos acompanhar e estamos animados para fazer parte da sua jornada na área de tecnologia e programação!</p>
+    </main>
+    <footer>
+        <p id="rodape">&copy; klz.inc - all All rights reserved </p>
+    </footer>
+
+</body>
+</html>
