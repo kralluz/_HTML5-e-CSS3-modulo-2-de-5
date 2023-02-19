@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+
+        
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: rgb(255, 255, 255);
+            border
+        }
+
+
+        a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkcyan;
+        }
+
+        a:hover {
+            color: rgb(30, 255, 0);
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        .especial {
+            background-color:  blue;
+        }
+
+        .especial::before {
+            content: '[special link]';
+        }
+
+        .especial::after {
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgrey;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li class="especial"><a href="youtube.com">YouTube</a></li>
+        <li><a href="github.com">github.com</a></li>
+        <li><a href="snapchat.com">Snapchat</a></li>
+        <li><a href="google.com">A programação é uma atividade que tem raízes profundas na história da humanidade. Desde a época dos antigos egípcios, que usavam símbolos para representar quantidades em suas escritas, as pessoas têm estado envolvidas com formas de codificar informações. No século XIX, o matemático Ada Lovelace escreveu o primeiro algoritmo para ser executado por uma máquina, o que é considerado o início da programação moderna.</a></li>
+    </ul>
+</body>
+</html>
