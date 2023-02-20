@@ -76,6 +76,7 @@ float: none;
 main {
     background-color: #151414;
     padding-left: 0px ;
+    display: inline-block;
 }
 
 .maintext {
@@ -118,7 +119,7 @@ form textarea,
 form button {
         display: block;
         width: 320px;
-        margin-left: 800px;
+        margin-left: 750px;
         margin-bottom: 8px;
         padding: 8px;
 }
@@ -129,7 +130,8 @@ form textarea {
 }
 
 section h3 {
-    margin-bottom: 16px;;
+    margin-bottom: 16px;
+    
 }
 
 form button {
@@ -137,12 +139,28 @@ form button {
     color: #ecf0f1;    
     border: none;
     cursor: pointer;
+    
 }
 
 form button:hover {
     background-color: #388668;
 }
 
+#formtxt {
+    text-align: center;
+    margin-left: 100px;
+}
 
 
+li {
+    display: inline-block;
+    padding: 16px;
+}
 
+#fl1 {
+    padding-left: 790px;
+}
+
+#fl2 {
+    padding-left: 450px;
+}
