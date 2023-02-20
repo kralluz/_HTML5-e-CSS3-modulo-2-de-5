@@ -1,0 +1,102 @@
+<style>
+* {box-sizing: border-box;}
+
+body { 
+margin: 0px 0px 0px 0px;
+font-family: Arial, Helvetica, sans-serif;
+background-color:#151414 ;
+color: white;
+}
+
+h1, 
+p {
+margin: 0px 0px;
+padding: 25px; 
+text-align: justify;
+}
+
+#txt {
+text-align: center; 
+}
+
+
+.header {
+overflow: hidden;
+background-color: #3C7261;
+padding: 5px 5px;
+list-style: none;
+color: white;
+
+}
+
+.header a {
+float: left;
+color: white;
+text-align: center;
+padding: 12px;
+text-decoration: none;
+font-size: 18px; 
+line-height: 25px;
+border-radius: 4px;
+}
+
+.header a.logo {
+font-size: 25px;
+font-weight: bold;
+}
+
+.header a:hover {
+background-color:white;
+color: black;
+}
+
+.header a.active {
+background-color: dodgerblue;
+color: white;
+}
+
+.header-right {
+float: right;
+
+}
+
+
+@media screen and (max-width: 500px) {
+.header a {
+float: none;
+display: block;
+text-align: left;
+}
+
+.header-right {
+float: none;
+}
+}
+main {
+    background-color: #151414;
+    padding-left: 0px ;
+}
+
+.maintext {
+    text-indent: 20px;
+    padding: 10px 100px 10px 100px;
+    margin: 25px;
+    
+}
+
+footer {
+    background-color: #3C7261;
+    padding: 1px 5px 5px 50px;
+    text-align: ;
+    margin-top: 0px;
+}
+
+img {
+    float: left;
+    margin-left: 0px;
+    margin-top: 45px;
+}
+
+#prim {
+    padding-bottom: 350px;
+}
