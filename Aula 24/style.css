@@ -1,4 +1,3 @@
-<style>
 * {box-sizing: border-box;}
 
 body { 
@@ -8,17 +7,25 @@ background-color:#151414 ;
 color: white;
 }
 
-h1, 
-p {
+
+.header-right {
+float: right;
+}
+
+h1 {
 margin: 0px 0px;
-padding: 25px; 
+padding: 30px; 
 text-align: justify;
+border: 40px;
 }
 
-#txt {
-text-align: center; 
-}
+p {
 
+    margin: 0px 0px;
+    padding: 30px; 
+    text-align: justify;
+
+}
 
 .header {
 overflow: hidden;
@@ -26,7 +33,6 @@ background-color: #3C7261;
 padding: 5px 5px;
 list-style: none;
 color: white;
-
 }
 
 .header a {
@@ -55,12 +61,6 @@ background-color: dodgerblue;
 color: white;
 }
 
-.header-right {
-float: right;
-
-}
-
-
 @media screen and (max-width: 500px) {
 .header a {
 float: none;
@@ -72,31 +72,45 @@ text-align: left;
 float: none;
 }
 }
+
 main {
     background-color: #151414;
     padding-left: 0px ;
 }
 
 .maintext {
-    text-indent: 20px;
-    padding: 10px 100px 10px 100px;
-    margin: 25px;
-    
+text-indent: 20px;
+padding: 15px 0px 10px 100px;
+margin: 25px;
 }
 
 footer {
-    background-color: #3C7261;
-    padding: 1px 5px 5px 50px;
-    text-align: ;
-    margin-top: 0px;
+background-color: #3C7261;
+
 }
 
+
 img {
-    float: left;
-    margin-left: 0px;
-    margin-top: 45px;
+float: left;
+margin-left: -30px;
+margin-top: 50px;
 }
 
 #prim {
-    padding-bottom: 350px;
+padding-bottom: 350px;
 }
+
+.post {
+padding: 25px;
+margin-right: 0px;
+margin-top:50px ;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+
+
